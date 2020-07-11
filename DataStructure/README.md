@@ -73,7 +73,7 @@
 >**解答：**
 >使用哈希表而不是固定大小的计数器。想象一下，分配一个大的数组来适应整个 Unicode 字符范围，这个范围可能超过 100万。哈希表是一种更通用的解决方案，可以适应任何字符范围。**这里就体现出了数组的缺点**
 
-例题的具体代码见 [ExampleSolution/Python/242_isAnagram.py]( https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/ExampleSolution/Python/242_isAnagram.py )
+例题的具体代码见 [Python/242_isAnagram.py]( https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/ExampleSolution/Python/242_isAnagram.py )
 
 ### 02. 链表（LinkedList）
 
@@ -95,7 +95,7 @@
 
 - 查询第 k 个元素需要 O(k) 时间。
 
-**应用场景：**如果要解决的问题里面需要很多快速查询，链表可能并不适合；如果遇到的问题中，数据的元素个数不确定，而且需要经常进行数据的添加和删除，那么链表会比较合适。**而如果数据元素大小确定，删除插入的操作并不多，那么数组可能更适合。**
+**应用场景**：如果要解决的问题里面需要很多快速查询，链表可能并不适合；如果遇到的问题中，数据的元素个数不确定，而且需要经常进行数据的添加和删除，那么链表会比较合适。**而如果数据元素大小确定，删除插入的操作并不多，那么数组可能更适合。**
 
 #### 2.2 链表经典解题方法：
 
@@ -156,4 +156,5 @@
 - 对下一轮k个节点也进行翻转操作。
 - 将上一轮翻转后的尾结点指向下一轮翻转后的头节点。
 
-例题的具体代码见 [ExampleSolution/Python/25_reverseKGroup.py]( https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/ExampleSolution/Python/25_reverseKGroup.py )
+&#8195;例题的具体代码见 [Python/25_reverseKGroup.py]( https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/ExampleSolution/Python/25_reverseKGroup.py )，另外LeetCode24题和本例题相似，即本例题中`k=2`的情况，也一并做了解答，具体代码见 [Python//24_swapPairs.py]( https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/ExampleSolution/Python/24_swapPairs.py )
+
