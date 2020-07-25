@@ -225,6 +225,7 @@
 
 ![img](README.assets/CgoB5l2IRLSATKk3AMg-Ag7s3RA865.gif) 
 
+
 >739.每日温度 
 >
 >请根据每日 `气温` 列表，重新生成一个列表。对应位置的输出为：要想观测到更高的气温，至少需要等待的天数。如果气温在这之后都不会升高，请在该位置用 `0` 来代替。
@@ -270,3 +271,11 @@
 - 求解算术表达式的结果（LeetCode 224、227、772、770)
 
 - 求解直方图里最大的矩形区域（LeetCode 84）
+
+**题解：**
+
+- [Python版本]( https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/ExampleSolution/Python/Stack)
+- [Java版本]( https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/ExampleSolution/JAVA/src/main/java/com/skymoon/stack)
+- [Scala版本]( https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/ExampleSolution/Scala/src/main/scala/com/skymoon/Stack)
+- [Go版本]( https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/ExampleSolution/Go/src/Stack)
+

@@ -23,4 +23,5 @@
 
 - [数组](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure#01-数组array)：最基本的数据结构，构建非常简单 ，能在 O(1) 的时间里根据数组的下标查询某个元素。
 - [链表](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure#02-链表linkedlist) ：链表能灵活地分配内存空间， 能在 O(1) 时间内删除或者添加元素。
-- 队列和栈：
+- [栈]( [https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure#03-%E6%A0%88stack](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure#03-栈stack) )：利用一个单链表来实现栈的数据结构。只针对栈顶元素进行操作，可借用单链表的头就能让所有栈的操作在 O(1) 的时间内完成。
+
