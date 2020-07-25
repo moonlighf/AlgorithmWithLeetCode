@@ -1,4 +1,4 @@
-package com.skymoon;
+package com.skymoon.linkedlist;
 
 /** @author skymoon */
 public class SolutionReverseKGroup {

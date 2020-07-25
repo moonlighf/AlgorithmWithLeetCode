@@ -1,10 +1,5 @@
 package main
 
-import "fmt"
-
-
-
-
 func swapPairs(head *ListNode) *ListNode {
 	// 声明一个节点作为伪头节点
 	dump := &ListNode{Val: -1}
@@ -34,20 +29,3 @@ func swapPairs(head *ListNode) *ListNode {
 
 
 
-
-func main() {
-	var a1 = &ListNode{Val: 1}
-	var a2 = &ListNode{Val: 2}
-	var a3 = &ListNode{Val: 3}
-	var a4 = &ListNode{Val: 4}
-	var a5 = &ListNode{Val: 5}
-	a1.Next = a2
-	a2.Next = a3
-	a3.Next = a4
-	a4.Next = a5
-	fmt.Println("before swap: ")
-	outPutListNode(a1)
-	fmt.Println("after swap: ")
-	newHead := swapPairs(a1)
-	outPutListNode(newHead)
-}

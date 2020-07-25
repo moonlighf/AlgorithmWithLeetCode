@@ -1,10 +1,4 @@
-package com.skymoon
-
-// Definition for singly-linked list.
-class ListNode(var _x: Int = 0) {
-  var next: ListNode = _
-  var x: Int = _x
-}
+package com.skymoon.LinkedList
 
 object solutionReverseKGroup {
   def reverseKGroup(head: ListNode, k: Int): ListNode = {
@@ -59,7 +53,7 @@ object solutionReverseKGroup {
     a2.next = a3
     a3.next = a4
     a4.next = a5
-    val newNode: ListNode = swapPairs2(a1)
+    val newNode: ListNode = reverseKGroup(a1, 2)
     //输出看结果
     outputListNode(newNode)
   }

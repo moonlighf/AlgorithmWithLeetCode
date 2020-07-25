@@ -1,4 +1,5 @@
-package com.skymoon
+package com.skymoon.Array
+
 import scala.collection.mutable
 
 object solutionIsAnagram {

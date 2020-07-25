@@ -1,4 +1,4 @@
-package com.skymoon;
+package com.skymoon.linkedlist;
 
 /**Definition for singly-linked list.
  * @author skymoo**/
