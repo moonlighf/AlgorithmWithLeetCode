@@ -43,7 +43,7 @@
 
 #### **1.3 题解代码（逐行解释版）：**
 
-- Python
+- [Python](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Python/155_MinStack.py )
 - Java
 - Scala
 - Go
@@ -109,7 +109,7 @@
 
 #### **2.3 题解代码（逐行解释版）：**
 
-- Python
+- [Python](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Python/150_evalRPN.py)
 - Java
 - Scala
 - Go
