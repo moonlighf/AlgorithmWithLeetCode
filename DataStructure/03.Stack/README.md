@@ -44,9 +44,9 @@
 #### **1.3 题解代码（逐行解释版）：**
 
 - [Python](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Python/155_MinStack.py )
-- Java
-- Scala
-- Go
+- [Java](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Java/src/main/java/com/skymoon/MinStack.java)
+- [Scala](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Scala/src/main/scala/com/skymoon/solutionMinStack155.scala)
+- [Go](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Go/minStackSolution.go)
 
 ### [02. 逆波兰表达式求值]( https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/ )
 
@@ -110,6 +110,7 @@
 #### **2.3 题解代码（逐行解释版）：**
 
 - [Python](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Python/150_evalRPN.py)
-- Java
-- Scala
-- Go
+- [Java](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Java/src/main/java/com/skymoon/EvalRpn.java)
+- [Scala](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Scala/src/main/scala/com/skymoon/solutionEvalRPN150.scala)
+- [Go](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Go/evalRPNSolution.go)
+
