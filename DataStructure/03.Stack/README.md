@@ -5,6 +5,7 @@
 - [x] 394. [字符串解码(中等)](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/03.Stack#03-字符串解码) 
 - [x] 394. [二叉树的中序遍历(中等)](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/03.Stack#04-二叉树的中序遍历) 
 - [x] offer_09. [用两个栈实现队列(简单)](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/03.Stack#05-用两个栈实现队列) 
+- [x] 1047. [删除字符串中的所有相邻重复项(简单)](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/03.Stack#06-删除字符串中所有相邻重复项) 
   
 
 ### [01. 最小栈]( https://leetcode-cn.com/problems/min-stack/ )
@@ -259,3 +260,35 @@
 - [Java](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Java/src/main/java/com/skymoon/CQueue.java)
 - [Scala](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Scala/src/main/scala/com/skymoon/solutionCQueue.scala)
 - [Go](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Go/CQueue.go)
+
+###  [06. 删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)
+
+#### 6.1 题目说明：
+
+>1047. 删除字符串中的所有相邻重复项（难度：简单）
+>
+>给出由小写字母组成的字符串 S，重复项删除操作会选择两个相邻且相同的字母，并删除它们。
+>
+>在 S 上反复执行重复项删除操作，直到无法继续删除。
+>
+>在完成所有重复项删除操作后返回最终的字符串。答案保证唯一。
+>
+> **示例：** 
+>
+>```
+>输入："abbaca"
+>输出："ca"
+>解释：
+>例如，在 "abbaca" 中，我们可以删除 "bb" 由于两字母相邻且相同，这是此时唯一可以执行删除操作的重复项。之后我们得到字符串 "aaca"，其中又只有 "aa" 可以执行重复项删除操作，所以最后的字符串为 "ca"。
+>```
+
+#### 6.2 解题思路：
+
+&#8195;这种处理相邻的字符串的类型的题，首先就会想到栈的解法。这里也很明显，只需要在入栈的时候判断和栈顶元素是否相同即可。如果相同，则代表相邻的元素相同，需要`pop`出栈顶元素，否则就直接入栈。
+
+#### 6.3 题解代码（逐行解释版）：
+
+- [Python](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Python/1047_removeDuplicates.py)
+- [Java](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Java/src/main/java/com/skymoon/removeDuplicates.java)
+- [Scala](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Scala/src/main/scala/com/skymoon/solutionRemoveDuplicates.scala)
+- [Go](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Go/removeDuplicates.go)

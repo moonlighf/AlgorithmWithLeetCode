@@ -285,5 +285,5 @@
 - [x] 150. [逆波兰表达式求值(中等)](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/03.Stack#02-逆波兰表达式求值) 
 - [x] 394. [字符串解码(中等)](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/03.Stack#03-字符串解码) 
 - [x] 394. [二叉树的中序遍历(中等)](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/03.Stack#04-二叉树的中序遍历) 
-
 - [x] offer_09. [用两个栈实现队列(简单)](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/03.Stack#05-用两个栈实现队列) 
+- [x] 1047. [删除字符串中的所有相邻重复项(简单)](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/03.Stack#06-删除字符串中所有相邻重复项) 
