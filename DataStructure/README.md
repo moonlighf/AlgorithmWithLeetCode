@@ -279,3 +279,9 @@
 - [Scala版本]( https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/ExampleSolution/Scala/src/main/scala/com/skymoon/Stack)
 - [Go版本]( https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/ExampleSolution/Go/src/Stack)
 
+### 3.3 栈的习题
+
+- [x] 155. [最小栈(简单)](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/03.Stack#01-最小栈) 
+- [x] 150. [逆波兰表达式求值(中等)](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/03.Stack#02-逆波兰表达式求值) 
+- [x] 394. [字符串解码(中等)](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/03.Stack#03-字符串解码) 
+- [x] 394. [二叉树的中序遍历(中等)](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/03.Stack#04-二叉树的中序遍历) 

@@ -3,7 +3,7 @@
 - [x] 155. [最小栈(简单)](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/03.Stack#01-最小栈) 
 - [x] 150. [逆波兰表达式求值(中等)](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/03.Stack#02-逆波兰表达式求值) 
 - [x] 394. [字符串解码(中等)](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/03.Stack#03-字符串解码) 
-- [ ] 394. [二叉树的中序遍历(中等)](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/03.Stack#04-二叉树的中序遍历) 
+- [x] 394. [二叉树的中序遍历(中等)](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure/03.Stack#04-二叉树的中序遍历) 
   
 
 ### [01. 最小栈]( https://leetcode-cn.com/problems/min-stack/ )
@@ -173,7 +173,7 @@
 
 #### **3.3 题解代码（逐行解释版）：**
 
-- Python
+- [Python](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Python/394_decodeString.py)
 - [Java](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Java/src/main/java/com/skymoon/DecodeString.java)
 - [Scala](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Scala/src/main/scala/com/skymoon/solutionDecodeString394.scala )
 - [Go](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Go/decodeStringSolution.go)
@@ -219,7 +219,7 @@
 
 #### **4.3 题解代码（逐行解释版）：**
 
-- Python
+- [Python](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Python/94_inorderTraversal.py)
 - [Java](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Java/src/main/java/com/skymoon/InorderTraversal.java)
 - [Scala](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Scala/src/main/scala/com/skymoon/solutionInorderTraversal94.scala)
 - [Go](https://github.com/moonlighf/AlgorithmWithLeetCode/blob/master/DataStructure/03.Stack/Go/inorderTraversalSolution.go)
