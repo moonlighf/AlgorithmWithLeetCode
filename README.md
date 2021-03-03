@@ -25,6 +25,6 @@
 - [链表](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure#02-链表linkedlist) ：链表能灵活地分配内存空间， 能在 O(1) 时间内删除或者添加元素。
 - [栈](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/DataStructure#03-栈stack)：利用一个单链表来实现栈的数据结构。只针对栈顶元素进行操作，可借用单链表的头就能让所有栈的操作在 O(1) 的时间内完成。
 
-#### [2.0 日常刷题篇](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/WorkDailyProblem)
+#### [2.2 日常刷题篇](https://github.com/moonlighf/AlgorithmWithLeetCode/tree/master/WorkDailyProblem)
 
 嘘……工作日的每日一题
